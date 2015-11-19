@@ -27,9 +27,9 @@ public class hipFrame extends JFrame
 	private void setupFrame()
 	{
 		this.setContentPane(basePanel);
-		this.setSize(500,500);
+		this.setSize(600,600);
 		this.setVisible(true);
-		this.setTitle("");
+		this.setTitle("asdjklfjkladsf");
 	}
 	
 	public controller getBasecontroller()

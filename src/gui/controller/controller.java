@@ -2,7 +2,7 @@ package gui.controller;
 
 import gui.model.Hipster;
 import gui.view.hipFrame;
-import gui.view.hipPanel;
+
 
 public class controller 
 {

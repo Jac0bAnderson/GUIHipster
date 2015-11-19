@@ -6,6 +6,14 @@ private String name;
 private String [] hipsterPhrases;
 private Book [] hipsterBooks;
 
+public Book[] getHipsterBooks() {
+	return hipsterBooks;
+}
+
+public void setHipsterBooks(Book[] hipsterBooks) {
+	this.hipsterBooks = hipsterBooks;
+}
+
 public Hipster()
 {
 	this.name = "Kay L. El";
@@ -40,13 +48,13 @@ private void setupBooks()
 	secondBook.setPageCount(280);
 	secondBook.setPrice(15.50);
 	
-	thirdBook = new Book(1, "Hp lovecraft", "Nyarlathotep","Horror", 1 );
+	thirdBook = new Book(1, "Hp lovecraft", "Horror","Nyarlathotep", 1 );
 	
 	
 	
 	hipsterBooks[0]= firstBook;
-	hipsterBooks[2]= secondBook;
-	hipsterBooks[3]=thirdBook;
+	hipsterBooks[1]= secondBook;
+	hipsterBooks[2]=thirdBook;
 }
 
 public String getName() {
