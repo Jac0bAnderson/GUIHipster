@@ -29,7 +29,7 @@ public class hipFrame extends JFrame
 		this.setContentPane(basePanel);
 		this.setSize(500,500);
 		this.setVisible(true);
-		this.setTitle("I only eat kale");
+		this.setTitle("");
 	}
 	
 	public controller getBasecontroller()

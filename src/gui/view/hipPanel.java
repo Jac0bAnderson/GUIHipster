@@ -50,6 +50,7 @@ private void setupLayout()
 
 private void setupListeners()
 {
+	//changes colors when a selection is made
 	phraseComboBox.addActionListener(new ActionListener()
 	{
 	public void actionPerformed(ActionEvent selection)

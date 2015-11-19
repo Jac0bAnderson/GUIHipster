@@ -15,10 +15,10 @@ public Hipster()
 
 private void setupArray()
 {
-	hipsterPhrases[0] ="i only eat Kale";
+	hipsterPhrases[0] ="i only eat food bough from whole foods";
 	hipsterPhrases[1]="organic";
 	hipsterPhrases[2]="I only work at standing offices";
-	hipsterPhrases[3]="I only program using a typewriter then giving the paper  to someone with a computer";
+	hipsterPhrases[3]="01101011 01100001 01101100 01100101";
 }
 
 public String getName() {

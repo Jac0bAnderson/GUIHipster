@@ -9,9 +9,11 @@ public class controller
 
 private hipFrame baseFrame;	
 private Hipster firstHipster;
+
 	
 	public controller()
 	{
+		
 		firstHipster = new Hipster();
 		baseFrame = new hipFrame(this);
 	}
